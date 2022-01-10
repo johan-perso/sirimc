@@ -22,7 +22,7 @@ Envoyer `siri <votre message>` dans le chat pour parler à Siri :
 
 - Votre message sera envoyé à l'API d'Anti coupable (anticoupable.johanstickman.com/api/ac-chat)
 - L'API vérifiera si elle a la réponse à votre message
-  - Si elle a la réponse : elle l'enverra dans le chat globale
+  - Si elle a la réponse : elle l'enverra dans le chat générale
   - Sinon, vous aurez un joli message d'erreur 🙃
     - Notez que vous pouvez ajouter votre propre réponse en utilisant la commande /chatset disponible sur le [serveur Discord](https://discord.gg/Fg8Ruzxnzp) de l'API.
 
