@@ -1,0 +1,5 @@
+name: SiriForMC
+version: 1.0
+author: JohanStickman
+main: johanstickman.siri_mc.Main
+api-version: 1.16
