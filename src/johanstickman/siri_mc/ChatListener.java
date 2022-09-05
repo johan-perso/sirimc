@@ -22,7 +22,7 @@ public class ChatListener implements Listener {
         // Si, avant modification, le message est trop court, annuler
         if(e.getMessage().length() < 6){
             e.getPlayer().sendMessage("§7[Bot] §rSiri: Bonjour ! Je suis Siri, votre assistant personnel. Pour me parler, envoyer §c\"siri <votre message>\"§r dans le chat.");
-            setTimeout(() -> e.getPlayer().sendMessage("§7[Bot] §rSiri: J'utilise l'API d'Anti Coupable (https://anticoupable.johanstickman.com) pour te fournir des réponses, cependant je n'ai pas réponse à tout :("), 1500);
+            setTimeout(() -> e.getPlayer().sendMessage("§7[Bot] §rSiri: J'utilise l'API d'Anti Coupable (https://anticoupable.johanstick.me) pour te fournir des réponses, cependant je n'ai pas réponse à tout :("), 1500);
             setTimeout(() -> e.getPlayer().sendMessage("§7[Bot] §rSiri: mais tu peux tout de même rejoindre le serveur Discord d'Anti Coupable (https://discord.gg/Fg8Ruzxnzp) et utiliser la commande §c\"/chatset\"§r pour définir une réponse :)"), 3000);
             e.setCancelled(true);
             return;
@@ -34,7 +34,7 @@ public class ChatListener implements Listener {
         // Si, après modification, le message est trop court, annuler
         if(e.getMessage().length() < 2){
             e.getPlayer().sendMessage("§7[Bot] §rSiri: Bonjour ! Je suis Siri, votre assistant personnel. Pour me parler, envoyer §c\"siri <votre message>\"§r dans le chat.");
-            setTimeout(() -> e.getPlayer().sendMessage("§7[Bot] §rSiri: J'utilise l'API d'Anti Coupable (https://anticoupable.johanstickman.com) pour te fournir des réponses, cependant je n'ai pas réponse à tout :("), 1500);
+            setTimeout(() -> e.getPlayer().sendMessage("§7[Bot] §rSiri: J'utilise l'API d'Anti Coupable (https://anticoupable.johanstick.me) pour te fournir des réponses, cependant je n'ai pas réponse à tout :("), 1500);
             setTimeout(() -> e.getPlayer().sendMessage("§7[Bot] §rSiri: mais tu peux tout de même rejoindre le serveur Discord d'Anti Coupable (https://discord.gg/Fg8Ruzxnzp) et utiliser la commande §c\"/chatset\"§r pour définir une réponse :)"), 3000);
             e.setCancelled(true);
             return;
@@ -43,7 +43,7 @@ public class ChatListener implements Listener {
         // Faire une requête vers l'API d'Anti Coupable
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://anticoupable.johanstickman.com/api/ac-chat"))
+                .uri(URI.create("https://anticoupable.johanstick.me/api/ac-chat"))
                 .header("Content-Type", "application/x-www-form-urlencoded")
                 .POST(HttpRequest.BodyPublishers.ofString("message=" + e.getMessage()))
                 .build();
