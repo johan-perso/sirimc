@@ -1,6 +1,6 @@
 # SiriMC
 
-Juste un plugin Minecraft, rajoutant l'API d'[AC](https://anticoupable.johanstickman.com) Chat, sous la forme d'un bot.
+Juste un plugin Minecraft, rajoutant l'API d'[AC](https://anticoupable.johanstick.me) Chat, sous la forme d'un bot.
 
 ![demo](./screen.png)
 
@@ -20,7 +20,7 @@ Vous pouvez télécharger le .jar du plugin [ici](https://github.com/johan-perso
 
 Envoyer `siri <votre message>` dans le chat pour parler à Siri :
 
-- Votre message sera envoyé à l'API d'Anti coupable (anticoupable.johanstickman.com/api/ac-chat)
+- Votre message sera envoyé à l'API d'Anti coupable (anticoupable.johanstick.me/api/ac-chat)
 - L'API vérifiera si elle a la réponse à votre message
   - Si elle a la réponse : elle l'enverra dans le chat générale
   - Sinon, vous aurez un joli message d'erreur 🙃
@@ -29,4 +29,4 @@ Envoyer `siri <votre message>` dans le chat pour parler à Siri :
 
 ## Licence
 
-MIT © [Johan](https://johanstickman.com)
+MIT © [Johan](https://johanstick.me)
